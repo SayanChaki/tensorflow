@@ -21,7 +21,7 @@ limitations under the License.
 #include <type_traits>
 
 #if GOOGLE_CUDA
-#include "third_party/gpus/cuda/include/cuda_fp16.h"
+#include "cuda_fp16.h"
 #endif
 #include "tensorflow/core/util/gpu_cuda_alias.h"
 #include "tensorflow/core/util/gpu_device_functions.h"
